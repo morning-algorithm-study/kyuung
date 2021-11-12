@@ -8,11 +8,26 @@
 
 #### 제한사항
 
-    * array의 길이는 1 이상 100 이하입니다.
-    * array의 각 원소는 1 이상 100 이하입니다.
-    * commands의 길이는 1 이상 50 이하입니다.
-    * commands의 각 원소는 길이가 3입니다.
+    array의 길이는 1 이상 100 이하입니다.
+    array의 각 원소는 1 이상 100 이하입니다.
+    commands의 길이는 1 이상 50 이하입니다.
+    commands의 각 원소는 길이가 3입니다.
 
 ![스크린샷 2021-11-11 오전 10 09 06](https://user-images.githubusercontent.com/49370511/141218796-4a5bdbab-7ae5-4f7a-9eff-d83c2822008b.png)
+
+---
+
+### 2. 없는 수 더하기 ( 21. 11. 12 )
+
+-   0부터 9까지의 숫자 중 일부가 들어있는 배열 numbers가 매개변수로 주어집니다.
+-   numbers에서 찾을 수 없는 0부터 9까지의 숫자를 모두 찾아 더한 수를 return 하도록 solution 함수를 완성해주세요.
+
+#### 제한사항
+
+    1 ≤ numbers의 길이 ≤ 9
+    0 ≤ numbers의 모든 수 ≤ 9
+    numbers의 모든 수는 서로 다릅니다.
+
+![스크린샷 2021-11-12 오전 10 11 47](https://user-images.githubusercontent.com/49370511/141391697-c41ebbb2-0862-41da-ab2f-4e8c4f643313.png)
 
 ---
