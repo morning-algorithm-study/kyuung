@@ -7,9 +7,7 @@ function solution(numbers) {
             result.push(num);
         }
     });
-    return result.reduce(
-        (previousValue, currentValue) => previousValue + currentValue
-    );
+    return result.reduce((acc, cur) => acc + cur);
 }
 
 // NOTE 풀이 2 : 1번에서 필요 없는 부분들을 줄였다.
